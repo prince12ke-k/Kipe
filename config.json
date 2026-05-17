@@ -12,7 +12,7 @@
   "antiInbox": false,
   "language": "en",
   "notesLanguage": "change language using ISO 639-1 code",
-  "nickNameBot": "—͞ 𝐐𝐔𝐄𝐄𝐍 🎀❤️‍🩹",
+  "nickNameBot": "—͞ 𝐐𝐔𝐄𝐄𝐍 vervede kipe🎀❤️‍🩹",
   "prefix": "/",
   "adminOnly": {
     "enable": false,
@@ -20,8 +20,8 @@
   },
   "adminBot": [
     "61583835186508",
-    " ",
-    " "
+    "61590026428291",
+    "61574308718082"
   ],
   "reactUnsend": {
     "enable": true,
