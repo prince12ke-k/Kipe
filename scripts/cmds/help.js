@@ -7,7 +7,7 @@ module.exports = {
     name: "help",
     aliases: ["menu", "commands"],
     version: "6.2",
-    author: "EryXenX",
+    author: "KIPE",
     shortDescription: "Show all commands",
     longDescription: "Show all commands in clean UI",
     category: "system",
@@ -59,7 +59,7 @@ module.exports = {
         : cmd.config.name;
 
       const infoMsg =
-`╭─ 𝐂𝐎𝐌𝐌𝐀𝐍𝐃 𝐈𝐍𝐅𝐎
+`╭─ KIPE AI 🤷🏽🙋🏽
 │ 🧩 ${fancyFont(cmd.config.name)}
 │ 🔗 ${cmd.config.aliases?.join(", ") || "None"}
 │ 📁 ${categoryFont((cmd.config.category || "Others").toUpperCase())}
@@ -84,7 +84,7 @@ module.exports = {
       cmds.sort().map(c => `• ${fancyFont(c)}`).join("\n");
 
     let msg =
-`╭─ 𝐂𝐎𝐌𝐌𝐀𝐍𝐃𝐒
+`╭─ KIPE AI
 │ 🔧 ${prefix}
 │ 📊 ${allCommands.size} commands
 ╰────────────\n`;
